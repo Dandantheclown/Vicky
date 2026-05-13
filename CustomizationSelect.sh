@@ -9,7 +9,7 @@ BUILD_DIR=~/Downloads/BuildLoop
 
 # Customization parameters for Loop
 app_name="Loop"
-app_folder_name="LoopWorkspace"
+app_folder_name="Vicky"
 
 
 # *** Start of inlined file: inline_functions/patch_functions.sh ***
