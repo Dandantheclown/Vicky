@@ -215,8 +215,6 @@ jobs:
           #   the line following a "\" should not be blank
           /bin/bash -c "$(curl -fsSL \
           https://github.com/Dandantheclown/Vicky/blob/main/CustomizationSelect.sh)" \
-          
-          future_carbs_4h \
           low_carb_limit \
           override_sens \
           now_line \
