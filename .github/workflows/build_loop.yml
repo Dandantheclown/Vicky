@@ -214,8 +214,10 @@ jobs:
           # The "\" is a continuation character 
           #   the line following a "\" should not be blank
           /bin/bash -c "$(curl -fsSL \
-          https://github.com/Dandantheclown/Vicky/blob/main/CustomizationSelect.sh)" \
+          https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
           profiles \
+          meal_week \
+          no_auth
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
       # Patch Fastlane Match to not print tables
